@@ -20,16 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > pwd
-> > mkdir directoryname
-> > rm -r directoryname
-> > touch filename
-> > rm filename
-> > mv fileyouwanttorename newfilename
-> > ls -a
-> > cp filename directoryname
-> > cat filename
-> > uniq filename | sort
+> > pwd . 
+> > mkdir directoryname . 
+> > rm -r directoryname . 
+> > touch filename . 
+> > rm filename . 
+> > mv fileyouwanttorename newfilename . 
+> > ls -a . 
+> > cp filename directoryname . 
+> > cat filename . 
+> > uniq filename | sort . 
 ---
 
 ### Q2.  List Files in Unix   
@@ -43,24 +43,24 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > list files in a directory 
-> > list files in a directory including hidden ones 
-> > list files in a directory in long form (permissions, links, owner, group, size, time, name)
-> > list files in a directory in long form and specific their units (rounded in two decimal places)
-> > list files in a directory in long from, including hidden ones, and specific the units they used
-> > list files in a directory in a order of the time last modified
-> > list files in a directory in long form and group different type of files in different colors and put a("/") after a directory
+> > list files in a directory .    
+> > list files in a directory including hidden ones .  
+> > list files in a directory in long form (permissions, links, owner, group, size, time, name) . 
+> > list files in a directory in long form and specific their units (rounded in two decimal places) . 
+> > list files in a directory in long from, including hidden ones, and specific the units they used . 
+> > list files in a directory in a order of the time last modified . 
+> > list files in a directory in long form and group different type of files in different colors and put a("/") after a directory . 
 ---
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > ls -R #display subdirectory as well
-> > ls -m #display the name as comma-seperated list
-> > ls -c #display files by file timestamp
-> > ls -C #display files in columnar format
-> > ls -d #display only directory
+> > ls -R #display subdirectory as well . 
+> > ls -m #display the name as comma-seperated list . 
+> > ls -c #display files by file timestamp . 
+> > ls -C #display files in columnar format . 
+> > ls -d #display only directory . 
 
 ---
 
@@ -68,7 +68,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > It takes a standard input that seperated by blanks and execuate a command for each items 
+> > It takes a standard input that seperated by blanks and execuate a command for each items . 
 > > An example would be to find some files and piped them to xargs to execute the rm syntax to remove all the files. find filenames | xargs rm
 
  
