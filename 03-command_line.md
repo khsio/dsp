@@ -43,8 +43,8 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > list files in a directory . 
-> > list files in a directory including hidden ones
+> > '''list files in a directory'''
+> > list files in a directory including hidden ones 
 > > list files in a directory in long form (permissions, links, owner, group, size, time, name)
 > > list files in a directory in long form and specific their units (rounded in two decimal places)
 > > list files in a directory in long from, including hidden ones, and specific the units they used
