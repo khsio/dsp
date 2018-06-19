@@ -72,7 +72,7 @@ You will see effect size again and again in results of algorithms that are run i
 firsts = live[live.birthord == 1]\
 others = live[live.birthord != 1]
 
-firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()\ 
+firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean() \ 
 (7.201094430437772, 7.325855614973262)\
 #firsts babies are lgither than others in average
 
