@@ -69,16 +69,15 @@ Cohen's D is an example of effect size.  Other examples of effect size are:  cor
 
 You will see effect size again and again in results of algorithms that are run in data science.  For instance, in the bootcamp, when you run a regression analysis, you will recognize the t-statistic as an example of effect size.
 
-firsts = live[live.birthord == 1]
+firsts = live[live.birthord == 1]\
 others = live[live.birthord != 1]
 
-first_totalwgt_lb_hist = thinkstats2.Hist(firsts.totalwgt_lb, label='first')
-other_totalwgt_lb_hist = thinkstats2.Hist(others.totalwgt_lb, label='other')
-
-firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean() 
+firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()\ 
+(7.201094430437772, 7.325855614973262)\
 #firsts babies are lgither than others in average
 
-CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb), CohenEffectSize(firsts.prglngth, others.prglngth)
+CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb), CohenEffectSize(firsts.prglngth, others.prglngth)\
+(-0.088672927072602, 0.028879044654449883)\
 #the effect of size of totalwgt_lb is higher than prglngth, but still very small
 
 ### Q2. [Think Stats Chapter 3 Exercise 1](statistics/3-1-actual_biased.md) (actual vs. biased)
