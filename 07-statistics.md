@@ -94,7 +94,8 @@ P(both boys|fraternal)=(1/2)*1/125
 P(identical|both boys)=(P(both boys|identical)*P(identical))/((P(both boys|identical)*P(identical))+(P(both boys|fraternal)*P(fraternal)))  
 P(identical|both boys)=(1/2*1/300)/((1/2*1/300)+(1/4*1/125))=5/11 which is about 45.45%  
 
-The probability that Elvis was an identical twin is 5/11 or 45.45%
+The probability that Elvis was an identical twin is 5/11 or 45.45%  
+
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
