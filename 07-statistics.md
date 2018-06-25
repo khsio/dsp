@@ -101,7 +101,11 @@ The probability that Elvis was an identical twin is 5/11 or 45.45%
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+The main difference between Frequentist and Bayesian is that Bayesian requires prior likelihood of the data and it will also updates the probability of the event you are testing based on the observed data, while Frequentist doesn't require prior data and will not update the probabilty of the event based on observed data. 
+
+For example, to land a 3 using a fair six sided die:  
+Frequentist would say the probability of landing a 3 is equally the same which is 1/6.   
+Bayesian would say the probability of landing a 3 would be 1/6, but I will update the probability based on the future observed data.  
 
 ---
 
